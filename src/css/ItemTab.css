@@ -1,0 +1,21 @@
+/*Luu Tan Phong - 104170839
+  Pham Duc Thinh - 104169675
+  Nguyen Tai Minh Huy - 104220352*/
+
+/* Styles for the container of each item tab */
+.tab-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+
+/* Styles for the container displaying additional information (shown when 'more' is true) */
+.show-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    padding-left: 10%; /* Adjusted padding for better alignment */
+}

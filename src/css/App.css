@@ -1,0 +1,53 @@
+/* App.css - Styles for the main hosting component of the React application */
+
+/* Apply styles to the root element of the application */
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Styles for the logo, including hover effect and transition */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+/* Hover effect on the logo with a drop shadow */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+/* Hover effect on the logo with class 'react' */
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Keyframes for logo spin animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply logo-spin animation to the logo */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Styles for the card, providing padding */
+.card {
+  padding: 2em;
+}
+
+/* Styles for the 'Read the Docs' text with a color of #888 */
+.read-the-docs {
+  color: #888;
+}

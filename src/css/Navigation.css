@@ -1,0 +1,5 @@
+/* CSS for styling navigation links */
+.nav-item a {
+    color: rgb(129, 129, 129); /* Set the color for navigation links */
+    text-decoration: none; /* Remove underline decoration from links */
+}

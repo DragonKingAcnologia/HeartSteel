@@ -1,0 +1,80 @@
+/*Luu Tan Phong - 104170839
+  Pham Duc Thinh - 104169675
+  Nguyen Tai Minh Huy - 104220352*/
+
+/* Banner styling */
+.banner {
+    width: 100%;
+    padding-left: 20px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #8B008B, #FF69B4);
+}
+
+/* Content inside the banner */
+.banner-content {
+    color: white;
+    position: absolute;
+    text-align: left;
+    margin-right: 30%;
+    margin-top: 10%;
+    animation: fade-in 5s ease infinite forwards;
+}
+
+/* Styling for the h1 elements inside .banner-content */
+.banner-content h1 {
+    font-size: 70px;
+}
+
+/* Decorative element 1 */
+.banner-decor {
+    position: absolute;
+    width: 150%;
+    height: 50%;
+    transform: rotate(120deg);
+    animation: decor-trans-1 3s ease-in-out infinite alternate;
+    background-color: darkgray;
+}
+
+/* Decorative element 2 */
+.banner-decor-2 {
+    position: absolute;
+    width: 150%;
+    height: 50%;
+    transform: rotate(120deg) translate(0px, -100px);
+    animation: decor-trans-2 3s ease-in-out infinite alternate;
+    background-color: grey;
+}
+
+/* Keyframe animation for decorative element 1 */
+@keyframes decor-trans-1 {
+    0% {
+        transform: rotate(120deg) translateX(-100%);
+    }
+    100% {
+        transform: rotate(120deg) translateX(0%);
+    }
+}
+
+/* Keyframe animation for decorative element 2 */
+@keyframes decor-trans-2 {
+    0% {
+        transform: rotate(120deg) translate(100%, -100px);
+    }
+    100% {
+        transform: rotate(120deg) translate(0%, -100px);
+    }
+}
+
+/* Keyframe animation for fade-in effect */
+@keyframes fade-in {
+    from {
+        transform: translateY(70px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

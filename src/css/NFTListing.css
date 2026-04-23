@@ -1,0 +1,59 @@
+/* Body styles for all pages */
+body {
+  background: linear-gradient(to right, #8B008B, #FF69B4);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Blog container styles */
+.blog {
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  position: inherit;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: whitesmoke;
+}
+
+/* Container title styles */
+.container-title {
+  text-align: center;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Flex container styles */
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Item container styles */
+.item-container-3 {
+  text-align: center;
+  margin: 10px;
+  width: 250px; /* Adjust width as needed */
+}
+
+/* Item image styles */
+.item-img {
+  width: 100%;
+  max-height: 150px; 
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+/* Item title styles */
+.item-title {
+  margin: 10px 0;
+}
+
+/* Input styles */
+input {
+  margin-right: 10px;
+}

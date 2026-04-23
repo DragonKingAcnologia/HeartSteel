@@ -1,0 +1,23 @@
+/* Container styling for the entire transaction history section */
+.history-container {
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 80%;
+  background-color: whitesmoke;
+}
+
+/* Styling for the container title section within the history component */
+.container-title {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px 20px 0 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+/* Styling for the input container used for filtering */
+.input-container {
+  width: 30%;
+}
